@@ -1,0 +1,11 @@
+# Ignore python scripts
+*.py
+
+# Ignore all Word documents
+*.docx
+*.doc
+
+# Ignore cache and temporary files
+__pycache__/
+.ipynb_checkpoints/
+*.npz

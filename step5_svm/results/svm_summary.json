@@ -1,0 +1,93 @@
+{
+  "best_k_window": 30,
+  "best_params": {
+    "selector__k": 30,
+    "svm__C": 5.0,
+    "svm__gamma": 0.01,
+    "svm__kernel": "rbf"
+  },
+  "selected_features": [
+    "tm_max",
+    "kd_max",
+    "hreg_apolar_frac",
+    "kd_mean",
+    "tm_mean",
+    "tm_peak_pos",
+    "bulk_max",
+    "kd_peak_pos",
+    "comp_L",
+    "nreg_charge_mean",
+    "bulk_mean",
+    "helix_mean",
+    "helix_max",
+    "comp_I",
+    "comp_A",
+    "creg_small_frac",
+    "comp_C",
+    "comp_R",
+    "nreg_charge_max",
+    "comp_F",
+    "comp_G",
+    "comp_K",
+    "comp_Y",
+    "comp_V",
+    "comp_P",
+    "comp_T",
+    "comp_S",
+    "comp_W",
+    "comp_N",
+    "comp_E"
+  ],
+  "cv_summary": {
+    "ACC": {
+      "mean": 0.9780233271945977,
+      "se": 0.001307997283773043
+    },
+    "Sen": {
+      "mean": 0.8943181818181818,
+      "se": 0.003853596581321166
+    },
+    "PPV": {
+      "mean": 0.9019923784980785,
+      "se": 0.010626792934666913
+    },
+    "F1": {
+      "mean": 0.8979962367656846,
+      "se": 0.005585231847990388
+    },
+    "MCC": {
+      "mean": 0.8857817308846914,
+      "se": 0.006348142225174617
+    },
+    "ROC_AUC": {
+      "mean": 0.9894403428642933,
+      "se": 0.0011987043445484244
+    },
+    "PR_AUC": {
+      "mean": 0.942811449276259,
+      "se": 0.005431399239013136
+    }
+  },
+  "benchmark_metrics": {
+    "ACC": 0.9734904270986745,
+    "PPV": 0.9029126213592233,
+    "Sen": 0.8454545454545455,
+    "F1": 0.8732394366197183,
+    "MCC": 0.8590332671348345,
+    "ROC_AUC": 0.9905663681392906,
+    "PR_AUC": 0.94543107461045
+  },
+  "error_analysis": {
+    "fp_total": 20,
+    "fp_tm_count": 13,
+    "fp_tm_percent": 65.0,
+    "tn_tm_percent": 10.18363939899833,
+    "tm_odds_ratio": 16.379391100702577,
+    "tm_fisher_p": 7.218715608462859e-09,
+    "fn_total": 34,
+    "sp_len_median_train_pos": 22.0,
+    "sp_len_median_bench_tp": 22.0,
+    "sp_len_median_bench_fn": 24.5,
+    "sp_len_p_val": 0.0021388909696124186
+  }
+}
