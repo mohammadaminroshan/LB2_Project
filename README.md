@@ -8,7 +8,7 @@
 
 ## 📌 Project Overview
 
-Welcome to my repository! This project tackles a fundamental challenge in bioinformatics: the **accurate computational detection of eukaryotic secretory signal peptides (SPs)**. 
+ciao ! This project tackles a fundamental challenge in bioinformatics: the **accurate computational detection of eukaryotic secretory signal peptides (SPs)**. 
 
 The main hurdle in this field is **Transmembrane (TM) mimicry**. Because the hydrophobic cores of signal peptides and N-terminal transmembrane $\alpha$-helices are physicochemically very similar, models often confuse them. 
 
@@ -58,7 +58,7 @@ This final diagnostic shows how the ESM-2 representations dramatically reduced f
 
 ## 📄 Final Manuscript
 
-- **`14_Final_Manuscript.docx`**: The complete methodology, journal-grade formatting, and benchmark results are documented in this final manuscript file located in the root directory.
+- **`Final_Manuscript.pdf`**: The complete methodology, journal-grade formatting, and benchmark results are documented in this final manuscript file located in the root directory, ready for submission.
 
 ---
 
